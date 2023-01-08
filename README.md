@@ -6,10 +6,10 @@ Opens a MIKE URBAN geodatabase and edits open channel cross sections
 
 CMD-prompt for running the script:
 
-'''python
+```python
 "pah for ArcMap python.exe" "path for CRSID.py"
 "C:\Python27\ArcGIS10.3\python.exe" "C:\Users\Rasmus\Desktop\CRSID.py"
-''''
+```
 
 ## PROBLEMS AND BUGS:
 
