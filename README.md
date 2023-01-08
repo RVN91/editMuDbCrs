@@ -6,7 +6,7 @@ Opens a MIKE URBAN geodatabase and edits open channel cross sections
 
 CMD-prompt for running the script:
 
-'''Python
+'''python
 "pah for ArcMap python.exe" "path for CRSID.py"
 "C:\Python27\ArcGIS10.3\python.exe" "C:\Users\Rasmus\Desktop\CRSID.py"
 ''''
@@ -17,13 +17,13 @@ CMD-prompt for running the script:
 
 ### For some reason 3 of the CRSID's do not have a type_id...
 
-'''Python
+'''python
 crsid = crsid[:-3]
 '''
 
 Reading coordinate table for CRSID "DAA_CRS_19" yields empty/non-existing values (empty list), so this CRSID is also skipped in the following line:
 
-'''Python 
+'''python 
 # If the coordinates of the CRSID is empty, skip it
 
 if not tmp:
