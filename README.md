@@ -17,16 +17,16 @@ CMD-prompt for running the script:
 
 ### For some reason 3 of the CRSID's do not have a type_id...
 
-'''python
+```python
 crsid = crsid[:-3]
-'''
+```
 
 Reading coordinate table for CRSID "DAA_CRS_19" yields empty/non-existing values (empty list), so this CRSID is also skipped in the following line:
 
-'''python 
+```python 
 # If the coordinates of the CRSID is empty, skip it
 
 if not tmp:
 	print(crsd_unique[i])
 	break
-'''
+```
